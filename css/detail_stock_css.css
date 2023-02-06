@@ -1,0 +1,37 @@
+.detail-stock-bg {
+    background: url(../images/stock/Frame\ 1\ \(2\).jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: 40% 0;
+    background-size: cover;
+}
+
+.back-arrow {
+    background: url(../images/stock/Arrow\ 7.png);
+    display: inline-block;
+    width: 28px;
+    height: 16px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .detail-stock-bg {
+        background: url(../images/stock/Frame\ 1\ \(1\).jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: 40% 0;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .detail-stock-bg {
+        background: url(../images/stock/Frame\ 1.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: 40% 0;
+        background-size: cover;
+    }  
+}    

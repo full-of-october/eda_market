@@ -1,0 +1,29 @@
+.detail-blog-bg {
+    background: url(../images/blog/Frame\ 1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: 40% 0;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .detail-blog-bg {
+        background: url(../images/blog/Frame\ 2.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: 40% 0;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .detail-blog-bg {
+        background: url(../images/blog/Frame\ 3.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: 40% 0;
+        background-size: cover;
+    }  
+}    

@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main_css.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-blue': '#0E2149',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+
+            <div class="header-inner">
+                <div class="logo">
+                    <img class="logo-img" src="images/main_page/logo.png" alt="">
+                    <span class="note grey-colour ml-4 width-200 d-none d-md-inline-block">Колбасы и мясные
+                        деликатесы</span>
+                </div>
+                <div class="sum-goods">
+
+                    <div class="star-wrap">
+                        <i class="star"></i>
+                        <div class="star-number">
+                            <span class="number-text white">3</span>
+                        </div>
+                    </div>
+
+                    <div class="grey-circle">
+                        <i class="basket"></i>
+                        <div class="star-number">
+                            <span class="number-text white">3</span>
+                        </div>
+                    </div>
+
+                    <div class="buying">
+                        <span class="note grey-colour">Товаров:</span>
+                        <span class="number black">3</span>
+                        <p class="h5">6540 ₽</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg bg-light pl-3 pr-3 pl-md-0 pr-md-0">
+            <div class="container">
+
+                <button class="navbar-toggler mobile-menu-js" type="button" id="menu-button">
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                    <span class="toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapseExample">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mb-2 mb-lg-0">
+                            <a class="nav-link menu-link" aria-current="page" href="#">О ресноте</a>
+                        </li>
+                        <li class="relative nav-item mb-2 mb-lg-0 pr-3">
+                            <a class="nav-link menu-link flex justify-between items-center" id="menuitemid"
+                                href="#">Каталог
+                                <div class="open-triangle triangle-tools" id="arrow"></div>
+                            </a>
+                            <ul class="submenu collapse w-[310px] top-full left-0 z-10 bg-[#D5AF86]" id="submenuid">
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-1 !mr-2"></i>
+                                        Хиты продаж
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-2 !mr-2"></i>
+                                        Скидки
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-3 !mr-2"></i>
+                                        Новинки
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-4 !mr-2"></i>
+                                        Колбасные и мясные изделия
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-5 !mr-2"></i>
+                                        Молочные продукты
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-6 !mr-2"></i>
+                                        Морепродукты
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-7 !mr-2"></i>
+                                        Пиво
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-8 !mr-2"></i>
+                                        Замороженные продукты
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-9 !mr-2"></i>
+                                        Мед
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-10 !mr-2"></i>
+                                        Свежие овощи
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="#!"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-11 !mr-2"></i>
+                                        Свежие фрукты
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+                        <li class="nav-item dropdown mb-2 mb-lg-0">
+                            <a class="nav-link menu-link" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Наши магазины
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <form class="search-wrap ml-auto ">
+                        <input type="text" class="search" placeholder="Поиск по сайту">
+                        <div class="button-search-wrap">
+                            <button class="search-icon"></button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleIndicators" class="main-carousel carousel slide mb-4">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="slider-button active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="slider-button"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="slider-button"></li>
+        </ol>
+        <div class="container">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slider-wrap">
+                        <h1 class="h1 white">Истина в качестве</h1>
+                        <p class="text white  mt-4 mb-5 width-352">
+                            Компания «Реснота» производит более 100 видов продуктов питания:
+                            колбасные и мясные изделия,
+                            хлебная и молочная продукция
+                        </p>
+                        <button class="main-button blue-button">Купить</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider-wrap">
+                        <h1 class="h1 white">Истина в качестве</h1>
+                        <p class="text white mt-4 mb-5 width-352">
+                            Компания «Реснота» производит более 100 видов продуктов питания:
+                            колбасные и мясные изделия,
+                            хлебная и молочная продукция
+                        </p>
+                        <button class="main-button blue-button">Купить</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider-wrap">
+                        <h1 class="h1 white">Истина в качестве</h1>
+                        <p class="text white mt-4 mb-5 width-352">
+                            Компания «Реснота» производит более 100 видов продуктов питания:
+
+                        </p>
+                        <button class="main-button blue-button">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="red-gradient gradient-tools">
+                    <h1 class="h5 white width-150">Колбасные
+                        и мясные изделия</h1>
+                    <div class="food-description">
+                        <span class="note white">56 товаров</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="olive-gradient gradient-tools">
+                    <h1 class="h5 white width-150">Молочные продукты</h1>
+                    <div class="food-description">
+                        <span class="note white">Сыры, Десерты, Йогурты, Кисломолочная продукция, Молоко, Сметана,
+                            Творог, Творожная масса</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="green-gradient gradient-tools">
+                    <h1 class="h5 white width-150">Морепродукты</h1>
+                    <div class="food-description">
+                        <span class="note white">Рыба, Икра, Креветки</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="yellow-gradient gradient-tools">
+                    <h1 class="h5 white width-150">Пиво</h1>
+                    <div class="food-description">
+                        <span class="note white">Крафтовое пиво</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="blue-gradient gradient-tools">
+                    <h1 class="h5 white width-150">Замороженные
+                        продукты</h1>
+                    <div class="food-description">
+                        <span class="note white">Замороженные овощи, Замороженные фрукты</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="dark-blue-gradient gradient-tools">
+                    <h1 class="h5 white width-150">Мёд</h1>
+                    <div class="food-description">
+                        <span class="note white">Мед горный 0,25 кг,</span>
+                        <span class="note white">Мед с облепихой 0,25 кг,</span>
+                        <span class="note white">Мед с черникой 0,25 кг,</span>
+                        <span class="note white">Мед с разнотравья 0,25 кг,</span>
+                        <span class="note white">Мед цветочный 0,25 кг</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="pink-gradient gradient-tools">
+                    <h1 class="h5 white width-150">Свежие овощи</h1>
+                    <div class="food-description">
+                        <span class="note white">Картофель, Огурцы, Помидоры</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="orange-gradient gradient-tools">
+                    <h1 class="h5 white width-150">Свежие фрукты</h1>
+                    <div class="food-description">
+                        <span class="note white">Сезонные яблоки</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul class="main-tab nav nav-pills mb-8 mt-9 mt-md-16 mb-md-12 mt-lg-20	justify-center" id="pills-tab"
+        role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active text" id="pills-home-tab" data-toggle="pill" data-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">Хиты</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Скидки</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact"
+                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Новинки</button>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-12" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container">
+                <div class="recomends">
+                    <div class="card">
+                        <div class="discount discount-green font-medium">
+                            Хит
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/bread.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-green font-medium">
+                            Хит
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/bread.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-green font-medium">
+                            Хит
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/bread.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-green font-medium">
+                            Хит
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/bread.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-green font-medium">
+                            Хит
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/bread.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-green font-medium">
+                            Хит
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/bread.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="container">
+                <div class="sales">
+                    <div class="card">
+                        <div class="discount discount-orange font-medium">
+                            Скидка
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/sausage.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-orange font-medium">
+                            Скидка
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/sausage.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-orange font-medium">
+                            Скидка
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/sausage.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-orange font-medium">
+                            Скидка
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/sausage.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-orange font-medium">
+                            Скидка
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/sausage.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-orange font-medium">
+                            Скидка
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/sausage.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="container">
+                <div class="news">
+                    <div class="card">
+                        <div class="discount discount-blue font-medium">
+                            New
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/beaf.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-blue font-medium">
+                            New
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/beaf.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-blue font-medium">
+                            New
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/beaf.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-blue font-medium">
+                            New
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/beaf.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-blue font-medium">
+                            New
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/beaf.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="discount discount-blue font-medium">
+                            New
+                        </div>
+                        <a class="grey-star-div">
+                            <i class="grey-star"></i>
+                        </a>
+                        <img src="images/main_page/card/beaf.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold text-xl blue">Говядина, кусок с/к</h5>
+                            <p class="card-text text-base font-light">Свинина, смесь посолочная (соль, нитрит
+                                натрия), коньяк,
+                                натуральные
+                                специи, сахар.
+                            </p>
+                            <p class="mt-4 font-bold text-2xl blue">500 ₽</p>
+                            <div class="flex gap-2 items-center mt-2.5">
+                                <p class="text-lg	font-medium	line-through beige-color">660 ₽</p>
+                                <div class="flex">
+                                    <div class="discount-sum text-sm font-semibold">-15%</div>
+                                    <div class="economy">Экономия 160 ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-lg white font-medium	gap-2.5 flex">
+                            <button class="card-link background-blue">Купить<button>
+                                    <button class="card-link background-beige">В 1 клик</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="customer-info mt-12	">
+        <div class="container">
+            <div class="customer-info-div">
+
+                <div class="lg:mt-8">
+                    <h3 class="white text-2xl font-bold md:text-4xl">Есть вопросы?</h3>
+                    <p class="font-light text-xl white leading-6 mt-6 mb-6 max-w-sm">Оставьте свои данные и наш менеджер
+                        свяжется с
+                        вами в
+                        ближайшее время.
+                    </p>
+                </div>
+
+                <div class="hover-customer-img">
+                    <img src="images/main_page/seal.png" alt="">
+                </div>
+
+                <div class="xl::w-3/4">
+                    <div class=" hover-customer-info">
+                        <div class="md:w-1/2">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control h-11 rounded-none" placeholder="Ваше имя"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control h-11 rounded-none" placeholder="Телефон/E-mail"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+
+                        <div class="input-group mb-3 md:w-1/2">
+                            <textarea type="text" class="form-control rounded-none pb-14	" placeholder="Комментарий"
+                                aria-label="Username" aria-describedby="basic-addon1"></textarea>
+                        </div>
+                    </div>
+
+
+
+                    <div class="custom-control custom-checkbox font-light">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label white " for="customCheck1">Даю согласие на рассылку
+                            рекламных
+                            материалов, акций и скидок</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox mt-3 mb-6 font-light">
+                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                        <label class="custom-control-label white" for="customCheck2">Даю согласие на обработку моих
+                            <a class="border-b border-white hover:text-white hover:no-underline " href="">персональных
+                                данных</a>
+                        </label>
+
+                    </div>
+
+                    <button class="main-button orange-button">Отправить</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer blue">
+            <h5 class="text-lg font-bold mb-2.5">Продукция</h5>
+
+            <div class="flex flex-wrap gap-y-3">
+
+                <div class="w-2/4 md:w-1/4 pr-6 text-sm">
+                    <a href="">Колбасные и мясные изделия</a>
+                </div>
+
+                <div class="w-2/4 md:w-1/4 pr-6 text-sm">
+                    <a href="">Молочные продукты</a>
+                </div>
+
+                <div class="w-2/4 md:w-1/4 pr-6 text-sm">
+                    <a href="">Морепродукты</a>
+                </div>
+
+                <div class="w-2/4 md:w-1/4 pr-6 text-sm">
+                    <a href="">Пиво</a>
+                </div>
+
+                <div class="w-2/4 md:w-1/4 pr-6 text-sm">
+                    <a href="">Замороженные продукты</a>
+                </div>
+
+                <div class="w-2/4 md:w-1/4 pr-6 text-sm">
+                    <a href="">Мед</a>
+                </div>
+
+                <div class="w-2/4 md:w-1/4 pr-6 text-sm">
+                    <a href="">Свежие овощи</a>
+                </div>
+
+                <div class="w-2/4 md:w-1/4 pr-6 text-sm">
+                    <a href="">Свежие фрукты</a>
+                </div>
+
+            </div>
+
+            <div class="flex flex-wrap gap-y-3 mt-8 text-lg font-bold">
+                <div class="w-2/4 md:w-1/4 pr-6">
+                    <a href="">О компании</a>
+                </div>
+                <div class="w-2/4 md:w-1/4 pr-6">
+                    <a href="">Наши магазины</a>
+                </div>
+                <div class="w-2/4 md:w-1/4 pr-6">
+                    <a href="">Контакты</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-media blue text-lg font-light">
+            <p class="md:w-1/3">2016–2021 © ООО «ПД Реснота»
+            </p>
+            <div class="my-6 flex justify-center gap-x-3 md:w-1/3">
+                <i class="social-icon facebook"></i>
+                <i class="social-icon vk"></i>
+                <i class="social-icon instagram"></i>
+            </div>
+            <p class="md:w-1/3 md:text-right">Разработка и продвижение сайта —
+                <a class="border-b border-dark-blue  hover:text-dark-blue hover:no-underline" href="">SEOabsolut</a>
+            </p>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main_js.js"></script>
+</body>
+
+</html>

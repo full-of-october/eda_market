@@ -1,0 +1,19 @@
+.container .btn {
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container .btn-light {
+    background: #FFFFFF;
+    color: #252525;
+    border-color: #D5AF86;
+}
+
+.card-animation:hover {
+    transform: scale(1.1);
+}
+
+.card-animation {
+    transition: all 0.5s ease;
+}
