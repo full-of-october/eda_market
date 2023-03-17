@@ -5,3 +5,11 @@
     width: 12px;
     height: 57px;
 }
+
+.story-company-img:hover {
+    transform: scale(1.2);
+}
+
+.story-company-img {
+    transition: all 0.5s ease-in-out;
+}

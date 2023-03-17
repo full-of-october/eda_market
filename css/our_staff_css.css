@@ -6,8 +6,9 @@
 
 .container .btn-light {
     background: #FFFFFF;
-    color: #252525;
+    color: #0E2149;
     border-color: #D5AF86;
+    display: flex;
 }
 
 .card-animation:hover {

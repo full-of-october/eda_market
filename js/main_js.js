@@ -28,9 +28,6 @@ $('.recomends').slick({
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
 
@@ -68,9 +65,6 @@ salesButton.addEventListener('click', function () {
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
   }, 200)
@@ -108,9 +102,6 @@ $('.news').slick({
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 

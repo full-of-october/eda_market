@@ -33,7 +33,9 @@
 
             <div class="header-inner">
                 <div class="logo">
-                    <img class="logo-img" src="images/main_page/logo.png" alt="">
+                    <a href="index.html">
+                        <img class="logo-img" src="images/main_page/logo.png" alt="">
+                    </a>
                     <span class="note grey-colour ml-4 width-200 d-none d-md-inline-block">Колбасы и мясные
                         деликатесы</span>
                 </div>
@@ -68,40 +70,146 @@
         <nav class="navbar navbar-expand-lg bg-light pl-3 pr-3 pl-md-0 pr-md-0">
             <div class="container">
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler mobile-menu-js" type="button" id="menu-button">
                     <span class="toggler-icon"></span>
                     <span class="toggler-icon"></span>
                     <span class="toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="collapseExample">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item mb-2 mb-lg-0">
                             <a class="nav-link menu-link" aria-current="page" href="#">О ресноте</a>
-                        </li>
-                        <li class="nav-item mb-2 mb-lg-0">
-                            <a class="nav-link menu-link" href="#">Каталог</a>
-                        </li>
-                        <li class="nav-item dropdown mb-2 mb-lg-0">
-                            <a class="nav-link dropdown-toggle menu-link" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Наши магазины
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
+                            <ul class="submenu collapse w-[310px] top-full left-0 z-10 bg-[#D5AF86]" id="submenuid">
+                                <li class="!pt-2 !px-5">
+                                    <a href="our_staff.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        Наши сотрудники
+                                    </a>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="story_company.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        История компании
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="reviews.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        Отзывы
+                                    </a>
+                                </li>
                             </ul>
                         </li>
+                        <li class="relative nav-item mb-2 mb-lg-0 pr-3">
+                            <a class="nav-link menu-link flex justify-between items-center" id="menuitemid"
+                                href="#">Каталог
+                                <div class="open-triangle triangle-tools" id="arrow"></div>
+                            </a>
+                            <ul class="submenu collapse w-[310px] top-full left-0 z-10 bg-[#D5AF86]" id="submenuid">
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-1 !mr-2"></i>
+                                        Хиты продаж
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-2 !mr-2"></i>
+                                        Скидки
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-3 !mr-2"></i>
+                                        Новинки
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-4 !mr-2"></i>
+                                        Колбасные и мясные изделия
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-5 !mr-2"></i>
+                                        Молочные продукты
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-6 !mr-2"></i>
+                                        Морепродукты
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-7 !mr-2"></i>
+                                        Пиво
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-8 !mr-2"></i>
+                                        Замороженные продукты
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-9 !mr-2"></i>
+                                        Мед
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-10 !mr-2"></i>
+                                        Свежие овощи
+                                    </a>
+                                </li>
+
+                                <li class="!pt-2 !px-5">
+                                    <a href="blog.html"
+                                        class="text-white text-base font-extralight hover:no-underline hover:font-bold duration-100 ease-in flex items-center">
+                                        <i class="icon-menu icon-menu-11 !mr-2"></i>
+                                        Свежие фрукты
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+                        <li class="nav-item dropdown mb-2 mb-lg-0">
+                            <a class="nav-link menu-link" href="blog_detail.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Наш блог
+                            </a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link">Контакты</a>
+                            <a class="nav-link menu-link" href="stock.html">Акции</a>
                         </li>
                     </ul>
-                    <form class="search-wrap ml-auto d-none d-md-flex ">
+                    <form class="search-wrap ml-auto ">
                         <input type="text" class="search" placeholder="Поиск по сайту">
                         <div class="button-search-wrap">
                             <button class="search-icon"></button>
@@ -255,7 +363,8 @@
                     <div class="custom-control custom-checkbox mt-3 mb-6 font-light">
                         <input type="checkbox" class="custom-control-input" id="customCheck2">
                         <label class="custom-control-label white" for="customCheck2">Даю согласие на обработку моих
-                            <a class="border-b border-white hover:text-white hover:no-underline " href="">персональных
+                            <a class="border-b border-white hover:text-white hover:no-underline hover:border-none "
+                                href="#">персональных
                                 данных</a>
                         </label>
 
@@ -330,7 +439,8 @@
                 <i class="social-icon instagram"></i>
             </div>
             <p class="md:w-1/3 md:text-right">Разработка и продвижение сайта —
-                <a class="border-b border-dark-blue  hover:text-dark-blue hover:no-underline" href="">SEOabsolut</a>
+                <a class="border-b border-dark-blue  hover:text-dark-blue hover:no-underline hover:border-none"
+                    href="#">SEOabsolut</a>
             </p>
         </div>
     </div>

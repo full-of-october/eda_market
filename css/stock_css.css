@@ -1,66 +1,78 @@
 .stock_card1 {
-    background: url(../images/stock/image\ 0.png);
-    background-repeat: no-repeat;
-    background-position: 30% 0;
-    padding: 23px 0 40px 35px;
-    background-size: cover;
+  background: url(../images/stock/image\ 0.png);
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  padding: 23px 0 40px 35px;
+  background-size: cover;
 }
 
 .stock_card2 {
-    background: url(../images/stock/image\ 1.png);
-    background-repeat: no-repeat;
-    background-position: 30% 0;
-    padding: 23px 0 40px 35px;
-    background-size: cover;
+  background: url(../images/stock/image\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  padding: 23px 0 40px 35px;
+  background-size: cover;
 }
 
 .stock_card3 {
-    background: url(../images/stock/image\ 3.png);
-    background-repeat: no-repeat;
-    background-position: 35% 0;
-    padding: 23px 0 40px 35px;
-    background-size: cover;
+  background: url(../images/stock/image\ 3.png);
+  background-repeat: no-repeat;
+  background-position: 35% 0;
+  padding: 23px 0 40px 35px;
+  background-size: cover;
 }
 
 .stock_card4 {
-    background: url(../images/stock/image\ 4.png);
-    background-repeat: no-repeat;
-    background-position: 30% 0;
-    padding: 23px 0 40px 35px;
-    background-size: cover;
+  background: url(../images/stock/image\ 4.png);
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  padding: 23px 0 40px 35px;
+  background-size: cover;
 }
 
 .stock_card5 {
-    background: url(../images/stock/image\ 5.png);
-    background-repeat: no-repeat;
-    background-position: 30% 0;
-    padding: 23px 0 40px 35px;
-    background-size: cover;
+  background: url(../images/stock/image\ 5.png);
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  padding: 23px 0 40px 35px;
+  background-size: cover;
 }
 
 .stock_card6 {
-    background: url(../images/stock/image\ 6.png);
-    background-repeat: no-repeat;
-    background-position: 30% 0;
-    padding: 23px 0 40px 35px;
-    background-size: cover;
+  background: url(../images/stock/image\ 6.png);
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  padding: 23px 0 40px 35px;
+  background-size: cover;
 }
 
 .stock_card7 {
-    background: url(../images/stock/image\ 7.png);
-    background-repeat: no-repeat;
-    background-position: 30% 0;
-    padding: 23px 0 40px 35px;
-    background-size: cover;
+  background: url(../images/stock/image\ 7.png);
+  background-repeat: no-repeat;
+  background-position: 30% 0;
+  padding: 23px 0 40px 35px;
+  background-size: cover;
+}
+
+.stock-card {
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+}
+
+.stock-card:hover {
+  text-decoration: none;
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px rgb(72, 72, 72);
 }
 
 @media screen and (min-width: 992px) {
-
-    .stock_card1, .stock_card2, .stock_card3, .stock_card3, .stock_card4, .stock_card5, .stock_card6 {
-        background-position: 0 0;
-    }
-    
-  
-  
+  .stock_card1,
+  .stock_card2,
+  .stock_card3,
+  .stock_card3,
+  .stock_card4,
+  .stock_card5,
+  .stock_card6 {
+    background-position: 0 0;
   }
-
+}
