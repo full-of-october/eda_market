@@ -32,43 +32,47 @@ $('.recomends').slick({
   });
 
 const salesButton = document.getElementById('pills-profile-tab')
-salesButton.addEventListener('click', function () {
-  console.log('work');
-  setTimeout(function (params) {
-    $('.sales').slick({
-      dots: true,
-      infinite: false,
-      speed: 300,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
+console.log(salesButton);
+if(salesButton) {
+  salesButton.addEventListener('click', function () {
+    console.log('work');
+    setTimeout(function (params) {
+      $('.sales').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 990,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 560,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
           }
-        },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 560,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    });
-  }, 200)
-})
+        ]
+      });
+    }, 200)
+  })
+}
+
 
 
 
@@ -124,7 +128,6 @@ buttonMenu.addEventListener("click", function () {
 
 
 let menuitem = document.getElementById("menuitemid")
-
 let submenu = document.getElementById("submenuid")
 
 menuitem.addEventListener("click", function () {
@@ -135,6 +138,22 @@ menuitem.addEventListener("click", function () {
     submenu.classList.remove("show");
   } else {
     submenu.classList.add("show");
+  }
+
+  
+})
+
+let menuItemAbout = document.getElementById("menuitemid-about")
+let submenumAbout = document.getElementById("submenuid-about")
+
+menuItemAbout.addEventListener("click", function () {
+
+  let hasClassShowSubmenu = submenumAbout.classList.contains("show");
+
+  if (hasClassShowSubmenu) {
+    submenumAbout.classList.remove("show");
+  } else {
+    submenumAbout.classList.add("show");
   }
 
   
